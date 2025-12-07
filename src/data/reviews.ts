@@ -10,6 +10,24 @@ interface Review {
 export const REVIEWS: Review[] = [
   {
     id: 1,
+    name: "Travel On Roads",
+    avatar: "/reviews/TravelOnRoads.jpeg",
+    rating: 5,
+    content:
+      "I used Fudsy Tamarind Powder and got that authentic, traditional, local tamarind taste. I prepared Sambar and coconut chutney using Fudsy.​It is easy to use since there is no need to squeeze the tamarind pulp. This is an excellent product for bachelors and homemakers alike to prepare curries without wasting time.​I strongly recommend FUDSY. Best wishes to Team FUDSY.",
+    product: "Tamarind Powder",
+  },
+  {
+    id: 2,
+    name: "Shahnabanu",
+    avatar: "/reviews/shahnabanu.jpeg",
+    rating: 5,
+    content:
+      "Hii.... ഞാൻ tamarind powderinte ഒരു sample product മേടിച്ചിരുന്നു. Great product... എനിക്ക് taste വളരെ അതികം ഇഷ്ടപ്പെട്ടു ..Fresh and has a tangy flavor.. Its compact and easy to use.. Would definitely recommend to trying it out..😍",
+    product: "Tamarind Powder",
+  },
+  {
+    id: 3,
     name: "Ramshidha",
     avatar: "/reviews/ramshidha.jpeg",
     rating: 5,
@@ -18,16 +36,16 @@ export const REVIEWS: Review[] = [
     product: "Tamarind Powder",
   },
   {
-    id: 2,
+    id: 4,
     name: "Suhailath",
     avatar: "/reviews/user.jpg",
     rating: 5,
     content:
-      "I used the tamarind powder and I’m really impressed. The quality is excellent and the flavour is strong. It truly helped me to cook faster, especially dishes like sambar.",
+      "I used the tamarind powder and I really impressed. The quality is excellent and the flavour is strong. It truly helped me to cook faster, especially dishes like sambar.",
     product: "Tamarind Powder",
   },
   {
-    id: 3,
+    id: 5,
     name: "Shefna sheri",
     avatar: "/reviews/user.jpg",
     rating: 5,
@@ -36,7 +54,7 @@ export const REVIEWS: Review[] = [
     product: "Tamarind Powder",
   },
   {
-    id: 4,
+    id: 6,
     name: "Fathima Shahala",
     avatar: "/reviews/user.jpg",
     rating: 4,
