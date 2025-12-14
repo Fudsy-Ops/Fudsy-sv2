@@ -99,7 +99,7 @@ const Reviews = () => {
           }`}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             What Our Customers{" "}
-            <span className="bg-gradient-to-r from-[#F25A1A] to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F25A1A] to-[#E95A32] bg-clip-text text-transparent">
               Say
             </span>
           </h2>
