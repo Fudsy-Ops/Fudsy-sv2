@@ -101,7 +101,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <button
             onClick={handleContactClick}
-            className="group relative overflow-hidden bg-[#F2591A] hover:bg-[#005530] text-white px-8 md:px-10 py-4 md:py-5 rounded-full text-base md:text-lg font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-flex items-center gap-3 w-full sm:w-auto justify-center">
+            className="group relative overflow-hidden bg-[#F25A1A] hover:bg-[#005530] text-white px-8 md:px-10 py-4 md:py-5 rounded-full text-base md:text-lg font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-flex items-center gap-3 w-full sm:w-auto justify-center">
             <div className="absolute inset-0 bg-white/10 transform -skew-x-12 translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
             <MessageCircle className="w-5 h-5 md:w-6 md:h-6 group-hover:rotate-12 transition-transform duration-300 relative" />
             <span className="relative">Contact Us</span>
