@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-300/20 to-red-300/20 rounded-full blur-2xl"></div>
             <img
-              src="/logos/fudsy-green.png"
+              src="/logos/FudsyLogoOrange.png"
               alt="Fudsy Logo"
               className="h-32 md:h-44 lg:h-52 w-auto object-contain relative"
             />
