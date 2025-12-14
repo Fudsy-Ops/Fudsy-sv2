@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="flex justify-center md:justify-end gap-4 mb-4">
               <button
                 onClick={handleWhatsAppClick}
-                className="w-10 h-10 bg-[#F25A1A] hover:bg-[#FFF7F2] rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                className="w-10 h-10 bg-[#F25A1A] hover:bg-[#E95A32] rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110">
                 <MessageCircle className="w-5 h-5" />
               </button>
               <a href="https://www.facebook.com/share/17cZMF6xV4/?mibextid=wwXIfr">
