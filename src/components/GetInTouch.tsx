@@ -351,7 +351,7 @@ const GetInTouch = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-gradient-to-r from-[#F25A1A] to-emerald-600 hover:from-[#E95A32] hover:to-emerald-700 text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+                  className="w-full bg-gradient-to-r from-[#F25A1A] to-[#E95A32] hover:from-[#E95A32] hover:to-[#E95A32] text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
                   <Send className="w-5 h-5" />
                   {loading ? "Sending..." : "Send Message"}
                 </button>
