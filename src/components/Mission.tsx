@@ -45,7 +45,7 @@ const Mission = () => {
                 : "opacity-0 -translate-x-10"
             }`}>
             <div className="flex items-center gap-3 mb-6">
-              <Target className="w-10 h-10 text-[#006938]" />
+              <Target className="w-10 h-10 text-[#F25A1A]" />
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
                 Our Mission
               </h2>
@@ -86,7 +86,7 @@ const Mission = () => {
                         : "opacity-0 translate-y-5"
                     }`}
                     style={{ transitionDelay: `${(index + 3) * 100}ms` }}>
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#006938] rounded-full flex items-center justify-center">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#F25A1A] rounded-full flex items-center justify-center">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <p className="text-lg font-semibold text-gray-800">
