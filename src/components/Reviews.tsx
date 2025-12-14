@@ -99,7 +99,7 @@ const Reviews = () => {
           }`}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             What Our Customers{" "}
-            <span className="bg-gradient-to-r from-[#006938] to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F25A1A] to-emerald-600 bg-clip-text text-transparent">
               Say
             </span>
           </h2>
@@ -125,7 +125,7 @@ const Reviews = () => {
               {visibleReviews.map((review, index) => (
                 <div
                   key={review.id}
-                  className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl border-2 border-gray-100 hover:border-[#006938] p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2">
+                  className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl border-2 border-gray-100 hover:border-[#F25A1A] p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2">
                   {/* Star Rating */}
                   <div className="flex justify-between items-start mb-4">
                     <div>{renderStars(review.rating)}</div>
@@ -170,7 +170,7 @@ const Reviews = () => {
               <div className="flex justify-center gap-4 mt-10">
                 <button
                   onClick={prevSlide}
-                  className="group p-3 bg-white border-2 border-gray-200 hover:border-[#006938] rounded-full transition-all duration-300 hover:bg-[#006938]">
+                  className="group p-3 bg-white border-2 border-gray-200 hover:border-[#F25A1A] rounded-full transition-all duration-300 hover:bg-[#F25A1A]">
                   <ChevronLeft className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors duration-300" />
                 </button>
                 <div className="flex items-center gap-2">
@@ -181,7 +181,7 @@ const Reviews = () => {
                         onClick={() => setCurrentIndex(i * itemsToShow)}
                         className={`w-2 h-2 rounded-full transition-all duration-300 ${
                           i === Math.floor(currentIndex / itemsToShow)
-                            ? "bg-[#006938] w-8"
+                            ? "bg-[#F25A1A] w-8"
                             : "bg-gray-300"
                         }`}
                       />
@@ -190,7 +190,7 @@ const Reviews = () => {
                 </div>
                 <button
                   onClick={nextSlide}
-                  className="group p-3 bg-white border-2 border-gray-200 hover:border-[#006938] rounded-full transition-all duration-300 hover:bg-[#006938]">
+                  className="group p-3 bg-white border-2 border-gray-200 hover:border-[#F25A1A] rounded-full transition-all duration-300 hover:bg-[#F25A1A]">
                   <ChevronRight className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors duration-300" />
                 </button>
               </div>
