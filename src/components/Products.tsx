@@ -189,7 +189,7 @@ const Products = () => {
                   </div>
                   <button
                     onClick={() => handleBuyNow(product.name)}
-                    className="w-full bg-[#006938] hover:bg-[#005530] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center gap-2">
+                    className="w-full bg-[#F25A1A] hover:bg-[#E55A0A] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center gap-2">
                     <ShoppingCart className="w-5 h-5" />
                     Order Now
                   </button>
