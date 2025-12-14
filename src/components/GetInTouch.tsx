@@ -134,7 +134,7 @@ const GetInTouch = () => {
           }`}>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-4">
             Get In{" "}
-            <span className="bg-gradient-to-r from-[#006938] to-emerald-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F25A1A] to-[#E95A32] bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
@@ -220,7 +220,7 @@ const GetInTouch = () => {
                 ].map((item, index) => (
                   <div key={index} className="flex gap-4">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-8 w-8 rounded-lg bg-[#006938] text-white font-bold">
+                      <div className="flex items-center justify-center h-8 w-8 rounded-lg bg-[#F25A1A] text-white font-bold">
                         ✓
                       </div>
                     </div>
@@ -351,7 +351,7 @@ const GetInTouch = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-gradient-to-r from-[#006938] to-emerald-600 hover:from-[#005530] hover:to-emerald-700 text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+                  className="w-full bg-gradient-to-r from-[#F25A1A] to-emerald-600 hover:from-[#E95A32] hover:to-emerald-700 text-white font-bold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
                   <Send className="w-5 h-5" />
                   {loading ? "Sending..." : "Send Message"}
                 </button>
