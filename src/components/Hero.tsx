@@ -32,7 +32,7 @@ const Hero = () => {
   // ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-slate-50 to-gray-100 relative overflow-hidden px-4 sm:px-6 md:px-8">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#FBF8E8] via-[#F7F2D7] to-[#EFE6B8] relative overflow-hidden px-4 sm:px-6 md:px-8">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-br from-green-200 to-emerald-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
