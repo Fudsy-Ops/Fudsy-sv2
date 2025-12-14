@@ -33,21 +33,21 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection("home")}
-                  className="text-gray-400 hover:text-[#006938] transition-colors duration-300">
+                  className="text-gray-400 hover:text-[#F25A1A] transition-colors duration-300">
                   Home
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => scrollToSection("products")}
-                  className="text-gray-400 hover:text-[#006938] transition-colors duration-300">
+                  className="text-gray-400 hover:text-[#F25A1A] transition-colors duration-300">
                   Products
                 </button>
               </li>
               <li>
                 <button
                   onClick={handleWhatsAppClick}
-                  className="text-gray-400 hover:text-[#006938] transition-colors duration-300">
+                  className="text-gray-400 hover:text-[#F25A1A] transition-colors duration-300">
                   Contact
                 </button>
               </li>
