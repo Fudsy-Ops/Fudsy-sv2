@@ -129,7 +129,7 @@ const Reviews = () => {
                   {/* Star Rating */}
                   <div className="flex justify-between items-start mb-4">
                     <div>{renderStars(review.rating)}</div>
-                    <span className="text-sm font-semibold text-[#006938] bg-emerald-50 px-3 py-1 rounded-full">
+                    <span className="text-sm font-semibold text-[#F25A1A] bg-[#FFF7F2] px-3 py-1 rounded-full">
                       {review.product}
                     </span>
                   </div>
