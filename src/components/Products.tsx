@@ -51,9 +51,9 @@ const products: Product[] = [
     name: "Tamarind Powder - 3 Pack Combo",
     description:
       "Skip the soaking and straining. Just add our instant tamarind powder for authentic tangy flavor.",
-    originalPrice: 180,
+    originalPrice: 225,
     offer: 17,
-    offerPrice: 149,
+    offerPrice: 199,
     image: "/products/IMG_4627.JPG",
     isComingSoon: false,
     isFreeDelivery: false,
@@ -66,7 +66,7 @@ const products: Product[] = [
       "Skip the soaking and straining. Just add our instant tamarind powder for authentic tangy flavor.",
     originalPrice: 300,
     offer: 17,
-    offerPrice: 249,
+    offerPrice: 270,
     image: "/products/IMG_4626.JPG",
     isComingSoon: false,
     isFreeDelivery: true,
@@ -169,11 +169,11 @@ const Products = () => {
                       +
                       {!product.isFreeDelivery ? (
                         <span className="text-md font-semibold text-red-400">
-                          Delivery Charge
+                          Included Delivery Charge 
                         </span>
                       ) : (
                         <span className="text-md font-semibold text-[#006938]">
-                          Free Delivery
+                          50% Delivery Free
                         </span>
                       )}
                     </div>
