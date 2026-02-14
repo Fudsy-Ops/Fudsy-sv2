@@ -168,8 +168,8 @@ const Products = () => {
                       </span>
                       +
                       {!product.isFreeDelivery ? (
-                        <span className="text-md font-semibold text-red-400">
-                          Included Delivery Charge 
+                        <span className="text-md font-semibold text-[#006938]">
+                          Delivery Included 
                         </span>
                       ) : (
                         <span className="text-md font-semibold text-[#006938]">
