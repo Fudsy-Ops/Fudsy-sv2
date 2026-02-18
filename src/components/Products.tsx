@@ -173,7 +173,7 @@ const Products = () => {
                         </span>
                       ) : (
                         <span className="text-md font-semibold text-[#006938]">
-                          50% Delivery Free
+                          Delivery Free
                         </span>
                       )}
                     </div>
