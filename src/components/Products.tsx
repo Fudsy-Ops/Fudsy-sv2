@@ -64,7 +64,7 @@ const products: Product[] = [
     name: "Tamarind Powder - 5 Pack Combo",
     description:
       "Skip the soaking and straining. Just add our instant tamarind powder for authentic tangy flavor.",
-    originalPrice: 399,
+    originalPrice: 379,
     offer: 17,
     offerPrice: 299,
     image: "/products/IMG_4626.JPG",
