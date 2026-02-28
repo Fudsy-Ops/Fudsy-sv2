@@ -51,9 +51,9 @@ const products: Product[] = [
     name: "Tamarind Powder - 3 Pack Combo",
     description:
       "Skip the soaking and straining. Just add our instant tamarind powder for authentic tangy flavor.",
-    originalPrice: 225,
+    originalPrice: 249,
     offer: 17,
-    offerPrice: 199,
+    offerPrice: 219,
     image: "/products/IMG_4627.JPG",
     isComingSoon: false,
     isFreeDelivery: false,
@@ -64,9 +64,9 @@ const products: Product[] = [
     name: "Tamarind Powder - 5 Pack Combo",
     description:
       "Skip the soaking and straining. Just add our instant tamarind powder for authentic tangy flavor.",
-    originalPrice: 300,
+    originalPrice: 399,
     offer: 17,
-    offerPrice: 270,
+    offerPrice: 299,
     image: "/products/IMG_4626.JPG",
     isComingSoon: false,
     isFreeDelivery: true,
